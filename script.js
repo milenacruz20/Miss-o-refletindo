@@ -10,11 +10,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Isso é assustador!",
-                afirmacao: "afirmação"
+                afirmacao: ""
             },
             {
                 texto: "Isso é maravilhoso!",
-                afirmacao: "afirmação"
+                afirmacao: ""
             }
         ]
     },
@@ -23,11 +23,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "afirmação"
+                afirmacao: ""
             },
             {
                 texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "afirmação"
+                afirmacao: ""
             }
         ]
     },
@@ -36,11 +36,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "afirmação"
+                afirmacao: ""
             },
             {
                 texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "afirmação"
+                afirmacao: ""
             }
         ]
     },
@@ -49,11 +49,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "afirmação"
+                afirmacao: ""
             },
             {
                 texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "afirmação"
+                afirmacao: ""
             }
         ]
     },
@@ -62,11 +62,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "afirmação"
+                afirmacao: ""
             },
             {
                 texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "afirmação"
+                afirmacao: ""
             }
         ]
     },
@@ -107,7 +107,7 @@ function respostaSelecionada(opcaoSelecionada) {
 function mostraResultado() {
     caixaPerguntas.textContent = "Em 2049...";
     textoResultado.textContent = historiaFinal;
-    caixaAlternativas.textContent = "oi kkkk";
+    caixaAlternativas.textContent = "Em 2049, a inteligência artificial estará presente em quase todos os aspectos da vida: saúde, educação, transporte e até nas decisões políticas. As máquinas serão mais autônomas e inteligentes, facilitando o dia a dia das pessoas e aumentando a produtividade. No entanto, é fundamental ter cuidado. O uso irresponsável da IA pode ampliar desigualdades, comprometer a privacidade e até colocar vidas em risco. Por isso, é importante que seu desenvolvimento seja acompanhado por leis éticas, transparência e responsabilidade social. A tecnologia deve servir à humanidade — e não o contrário.";
 }
 
 mostraPergunta();
